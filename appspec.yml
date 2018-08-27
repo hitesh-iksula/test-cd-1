@@ -23,8 +23,8 @@ os: linux
 #   "files" section altogether. A blank or incomplete "files" section
 #   may cause associated deployments to fail.
 files:
-  - source: code
-    destination: /var/www/html/code
+  - source: /
+    destination: /var/www/html/cd
   # - source:
   #   destination:
 # For deployments to Amazon Linux, Ubuntu Server, or RHEL instances,
